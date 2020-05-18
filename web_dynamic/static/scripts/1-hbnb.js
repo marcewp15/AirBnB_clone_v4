@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 $(document).ready(function () {
   const $checkboxes = $("input[type='checkbox']")
   const amenId = [];
