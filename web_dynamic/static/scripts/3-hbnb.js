@@ -37,7 +37,7 @@ $.ajax({
     contentType: 'application/json; charset=utf-8',
     dataType: 'JSON'
 }).done(function (data) {
-    data.sort(nameSort);
+    data.sort();
     for (let i = 0; i < data.length; i++) {
 	let place = data[i];
 
