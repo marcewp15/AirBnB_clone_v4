@@ -47,4 +47,3 @@ $.ajax({
       $('section.places').append(placeHtml);
     }
 });
-});
